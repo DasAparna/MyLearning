@@ -3,9 +3,7 @@ import java.util.Scanner;
 
 public class evenODd {
 	public static class Solution {
-
-
-
+		//class variables
 	    private static final Scanner scanner = new Scanner(System.in);
 
 	    public static void main(String[] args) {
@@ -22,9 +20,7 @@ public class evenODd {
 	        }else if(N%2 == 0 && N > 20) { // if N is even and greater than 20 print not weird
 	            System.out.println("Not Weird");
 	        }
-
 	        scanner.close();
 	    }
 	}
-
 }
